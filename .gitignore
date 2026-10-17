@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Output generated reports and figures (keep structure, exclude large test dumps if needed)
+data/processed/
+.pytest_cache/
+
+research_handover/
+research_handover.zip

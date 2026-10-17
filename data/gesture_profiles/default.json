@@ -1,0 +1,225 @@
+{
+  "schema_version": "2.1.0",
+  "created_at": 1792231934.661488,
+  "vocabulary": [
+    "fist",
+    "index_finger",
+    "neutral",
+    "open_palm",
+    "point_left",
+    "point_right",
+    "thumbs_down",
+    "thumbs_up",
+    "two_fingers"
+  ],
+  "classes": [
+    "fist",
+    "index_finger",
+    "neutral",
+    "open_palm",
+    "point_left",
+    "point_right",
+    "thumbs_down",
+    "thumbs_up",
+    "two_fingers"
+  ],
+  "confidence_threshold": 0.55,
+  "model_file": "default_model.joblib",
+  "calibration_samples_file": "default_samples.csv",
+  "rotational_calibration": {
+    "neutral_angle_deg": -59.64,
+    "increase_direction": 1,
+    "min_range_deg": 34.83,
+    "calibrated_at": 1792231932.3912148
+  },
+  "metadata": {
+    "trained_at": 1792231934.6181638,
+    "sample_count": 216,
+    "feature_dim": 83,
+    "evaluation": {
+      "method": "LeaveOneGroupOut (by attempt)",
+      "report": {
+        "fist": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1-score": 0.8571428571428571,
+          "support": 24.0
+        },
+        "index_finger": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 24.0
+        },
+        "open_palm": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "point_left": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "point_right": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "thumbs_down": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "thumbs_up": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "two_fingers": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 24.0
+        },
+        "accuracy": 0.9629629629629629,
+        "macro avg": {
+          "precision": 0.9722222222222222,
+          "recall": 0.9629629629629629,
+          "f1-score": 0.961904761904762,
+          "support": 216.0
+        },
+        "weighted avg": {
+          "precision": 0.9722222222222222,
+          "recall": 0.9629629629629629,
+          "f1-score": 0.9619047619047619,
+          "support": 216.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24
+        ]
+      ],
+      "accuracy": 0.9629629629629629
+    },
+    "classes": [
+      "fist",
+      "index_finger",
+      "neutral",
+      "open_palm",
+      "point_left",
+      "point_right",
+      "thumbs_down",
+      "thumbs_up",
+      "two_fingers"
+    ]
+  }
+}

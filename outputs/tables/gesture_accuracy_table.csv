@@ -1,0 +1,9 @@
+Gesture,Command,Trials,Correct,Accuracy (%),Mean Latency (ms)
+fist,volume_down,207,48,23.19,33.3
+index_finger,play_pause,268,257,95.9,33.3
+open_palm,volume_up,212,115,54.25,33.3
+point_left,prev_track,170,170,100.0,33.3
+point_right,next_track,74,74,100.0,33.3
+thumbs_down,unlike_track,124,124,100.0,33.3
+thumbs_up,like_track,133,115,86.47,33.3
+two_fingers,mute_unmute,175,168,96.0,33.3

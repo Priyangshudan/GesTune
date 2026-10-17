@@ -1,0 +1,9 @@
+gesture_label,total,if_anomalies,iqr_outliers
+fist,207,12,82
+index_finger,268,2,42
+open_palm,212,48,115
+point_left,170,0,2
+point_right,74,0,29
+thumbs_down,124,0,2
+thumbs_up,133,0,24
+two_fingers,175,7,39

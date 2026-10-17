@@ -1,0 +1,5 @@
+Stage,N_Samples,N_Features,Components_for_95%_Var,PC1_Explained_Var(%),Condition_Number,Effective_Rank_95%,Silhouette_Score_PC1_PC2,kNN_CV_Accuracy(%)
+Stage A: Raw Unscaled,1363,8,1,99.96,640.03,1,-0.2645,23.18
+Stage B: Cleaned & Standardised,1363,8,6,31.52,6.43,6,-0.1496,93.32
+Stage C: Winsorised (Outlier-Treated),1363,8,6,31.73,6.43,6,-0.1245,93.1
+Stage D: Outlier-Removed Sensitivity,1028,8,6,29.57,6.6,6,-0.1051,91.54

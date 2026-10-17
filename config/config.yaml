@@ -1,0 +1,84 @@
+# GestureTune Configuration
+
+app:
+  name: "GestureTune"
+  version: "1.0.0"
+  random_seed: 42
+
+camera:
+  device_index: 0
+  width: 640
+  height: 480
+  fps: 30
+  mirror: true
+
+mediapipe:
+  model_path: "models/hand_landmarker.task"
+  num_hands: 1
+  min_hand_detection_confidence: 0.5
+  min_hand_presence_confidence: 0.5
+  min_tracking_confidence: 0.5
+
+gestures:
+  vocabulary:
+    - "index_finger"
+    - "two_fingers"
+    - "point_left"
+    - "point_right"
+    - "open_palm"
+    - "fist"
+    - "thumbs_up"
+    - "thumbs_down"
+  key_mapping:
+    1: "index_finger"
+    2: "two_fingers"
+    3: "point_left"
+    4: "point_right"
+    5: "open_palm"
+    6: "fist"
+    7: "thumbs_up"
+    8: "thumbs_down"
+  command_mapping:
+    index_finger: "play_pause"
+    two_fingers: "mute_unmute"
+    point_left: "prev_track"
+    point_right: "next_track"
+    open_palm: "volume_up"
+    fist: "volume_down"
+    thumbs_up: "like_track"
+    thumbs_down: "unlike_track"
+
+controls:
+  debounce_frames: 5
+  cooldown_seconds: 1.0
+  volume_repeat_interval: 0.5
+  volume_step: 0.05
+  default_volume: 0.7
+
+player:
+  music_dir: "music"
+  liked_tracks_file: "data/liked_tracks.json"
+  supported_formats:
+    - ".mp3"
+    - ".wav"
+    - ".ogg"
+
+data:
+  raw_dataset_path: "data/raw_landmarks.csv"
+  features_dataset_path: "data/gesture_features.csv"
+  processed_dir: "data/processed"
+  raw_columns_count: 67
+
+analysis:
+  iqr_multiplier: 1.5
+  isolation_forest_contamination: 0.05
+  pca_variance_threshold: 0.95
+  near_zero_variance_threshold: 1e-6
+  skewness_log_threshold: 1.0
+
+outputs:
+  base_dir: "outputs"
+  tables_dir: "outputs/tables"
+  figures_dir: "outputs/figures"
+  reports_dir: "outputs/reports"
+

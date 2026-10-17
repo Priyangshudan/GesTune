@@ -1,0 +1,9 @@
+Feature,Original_Mean,Original_Std,Winsorized_Mean,Winsorized_Std,Removed_Mean,Removed_Std
+confidence,0.9763,0.0346,0.9794,0.0224,0.9863,0.0152
+hand_width,0.1906,0.0686,0.1906,0.0686,0.1816,0.0562
+hand_height,0.3256,0.0795,0.3256,0.0795,0.3234,0.0781
+hand_spread,0.132,0.0463,0.1307,0.0431,0.1214,0.0345
+thumb_index_distance,0.2038,0.0727,0.2038,0.0727,0.2018,0.0688
+palm_size,0.1784,0.0316,0.1784,0.0316,0.1752,0.0319
+movement_speed,0.1076,0.2216,0.0822,0.1097,0.069,0.09
+acceleration,-0.1589,10.1684,-0.0961,6.2952,-0.4711,4.9502
